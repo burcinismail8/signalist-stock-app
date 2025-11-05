@@ -30,7 +30,7 @@ const UserDropdown = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="flex items-center gap-3 text-gray-400 hover:yellow-500"
+          className="flex items-center gap-3 text-gray-400 hover:text-yellow-500"
         >
           <Avatar className="h-8 w-8">
             <AvatarImage src="https://github.com/shadcn.png" />
@@ -65,7 +65,7 @@ const UserDropdown = () => {
         <DropdownMenuSeparator className="bg-gray-600" />
         <DropdownMenuItem
           onClick={handleSignOut}
-          className="text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer"
+          className="text-gray-100 text-base font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer"
         >
           <LogOut className="h-4 w-4 mr-2 hidden sm:block" />
           Log Out
